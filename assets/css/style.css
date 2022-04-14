@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 .cards-container{
+  display: inline-block;
   text-align: center;
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
