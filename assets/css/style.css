@@ -4,26 +4,24 @@
 .cards-container{
   text-align: center;
   font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .card-wrapper{
   --img-size:100px;
-  --main-bg-color: darkblue;
+  --main-bg-color: #17A2B7;
   display: inline-block;
   min-width: calc(var(--img-size)*2);
   width: 100%;
-  max-width: calc(var(--img-size)*3);
+  max-width: calc(var(--img-size)*3.5);
   border: 1px solid var(--main-bg-color);
   font-size: 0.7em;
 }
 .bg-header{
-  height: calc(var(--img-size)*1.5);
-  background-color: var(--main-bg-color);;
+  height: calc(var(--img-size)*1.4);
 }
 .card-content{
   padding: 0 20px;
 }
-
 .photo-profile{
   width: var(--img-size);
   height: var(--img-size);
@@ -35,22 +33,44 @@
   object-position: top center;
   background-color:#ffffff;
 }
+.full-name-profile{
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.address-profile{
+  padding-bottom: 15px;
+}
+.icon-map{
+  width: 16.8px;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.uppercase{
+  text-transform: uppercase;
+}
 .btn-container{
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
   padding: 15px 0;
 }
 .btn{
+  padding: 7px;
   cursor: pointer;
   border: none;
+  border-radius: 5%;
   color: white;
 }
 .follow{
-  background-color:green;
+  background-color:#27A844;
 }
 .card-footer{
-  background-color: var(--main-bg-color);
   padding: 10px;
+}
+.bg-header, 
+.send, 
+.card-footer{
+  background-color: var(--main-bg-color);
 }
 .link-social{
   display: block;
@@ -59,6 +79,9 @@
 }
 .card-item-socail{
   display: inline-block;
+}
+.description-profile{
+  padding: 15px 0 15px 0;
 }
 .icon-fb{
   background-image: url(./../icons/facebook.png);
