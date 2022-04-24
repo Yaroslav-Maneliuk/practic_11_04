@@ -37,9 +37,15 @@
 .full-name-profile{
   padding-top: 15px;
   padding-bottom: 5px;
+  width: 80px;
 }
 .address-profile{
+  width: 180px;
   padding-bottom: 15px;
+}
+.full-name-profile,
+.address-profile{
+  margin: auto;
 }
 .icon-map{
   width: 16.8px;
@@ -62,8 +68,18 @@
   border-radius: 5%;
   color: white;
 }
+.full-name-profile,
+.address-profile,
+.btn{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .follow{
+  width: 80px;
   background-color:#27A844;
+}
+.send{
+  width: 130px;
 }
 .card-footer{
   padding: 10px;
