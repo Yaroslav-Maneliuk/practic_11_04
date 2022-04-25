@@ -37,7 +37,7 @@
 .full-name-profile{
   padding-top: 15px;
   padding-bottom: 5px;
-  width: 80px;
+  width: 100px;
 }
 .address-profile{
   width: 180px;
@@ -72,6 +72,7 @@
 .address-profile,
 .btn{
   overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }
 .follow{
@@ -79,7 +80,7 @@
   background-color:#27A844;
 }
 .send{
-  width: 130px;
+  width: 150px;
 }
 .card-footer{
   padding: 10px;
